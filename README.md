@@ -1,12 +1,14 @@
 Angular Scaffolding
 ======================
 
-**In development !**
+**In development. Not ready for use in production**
 
-This project uses:
+This scaffolding implements:
 
 - SASS/Compass
-- ui-router
+- Susy
+- Angular
+- UI-Router (Angular plugin)
 - Grunt
 
 
