@@ -1,0 +1,30 @@
+/**
+ * Recommended by HugoGiraudel
+ * https://github.com/drublic/Sass-Mixins/blob/master/partials/_transform.scss
+**/
+
+/**
+ * @description
+ * Generates cross-browser-compatible `transform` for a given element
+ *
+ * @author drublic
+ *
+ * @link caniuse http://caniuse.com/transforms2d http://caniuse.com/transforms3d
+ * @link spec
+ *
+ * @param values
+ * @returns
+ *   -webkit-transform: <values>;
+ *       -ms-transform: <values>;
+ *           transform: <values>;
+ *
+ * @example
+ *   .selector {
+ *     @include x-transform(rotate(1deg));
+ *   }
+ */
+@mixin x-transform ($values) {
+	-webkit-transform: $values; // Chrome, Safari, iOS Safari, Android Stock
+	    -ms-transform: $values; // IE9
+	        transform: $values;
+}

@@ -5,10 +5,8 @@ Angular Scaffolding
 
 This scaffolding implements:
 
-- SASS/Compass
-- Susy
+- SASS/Compass/Bourbon
 - Angular
 - UI-Router (Angular plugin)
 - Grunt
-
-
+- Bower
